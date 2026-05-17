@@ -1,0 +1,137 @@
+
+/* Estilo Geral */
+
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+body{
+   
+    background-color: #0a011d;
+    height: 100vh;
+    
+}
+
+.interface{
+    max-width: 1680px;
+    margin: 0 auto;
+}
+.logo img{
+    cursor: default;
+}
+
+.flex{
+    display: flex;
+}
+
+.btn-contato button{
+    padding: 30px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #660683;
+    border: 0;
+    border-radius: 70px;
+    cursor: pointer;
+    transition: 0.3s;
+    
+}
+
+.btn-contato button:hover{
+    box-shadow: 0 0 30px #660683;
+    transform: scale(1.05);
+    
+}
+
+
+/* Estilo do cabeçalho */
+
+header{
+    padding: 40px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: #575555;
+    text-decoration: none;
+    display: inline-block;
+}
+
+header a:hover{
+    color: #fff;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+
+
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin-left: 40px;
+}
+
+
+/* Estilo do topo do site */
+
+section.topo-do-site{
+    padding: 40px 4%;
+}
+
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+
+.topo-do-site .txt-topo-site h1{
+    font-size: 40px;
+    line-height: 40px;
+    color: #ffffff;
+}
+.topo-do-site .txt-topo-site p{
+    color: #ffffff;
+    margin: 40px 0;
+}
+.topo-do-site .txt-topo-site h1 span{
+    color: #660683;
+    
+}
+
+.topo-do-site .img-topo-site img{
+    width: 400px;
+    height: auto;
+}
+
+.topo-do-site .img-topo-site img{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar{
+    0%{
+        top: 0;
+
+    }
+    100%{
+        top: 30px;
+    }
+}
+
+
+
+
