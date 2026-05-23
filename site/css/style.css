@@ -42,7 +42,7 @@ body{
     
 }
 
-.btn-contato button:hover{
+button:hover{
     box-shadow: 0 0 30px #660683;
     transform: scale(1.05);
     
@@ -74,8 +74,6 @@ header a:hover{
 }
 
 
-
-
 header nav ul{
     list-style-type: none;
 }
@@ -85,6 +83,14 @@ header nav ul li{
     margin-left: 40px;
 }
 
+h2.titulo{
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+}
+h2.titulo span{
+    color: #660683;
+}
 
 /* Estilo do topo do site */
 
@@ -106,6 +112,9 @@ section.topo-do-site .flex{
 .topo-do-site .txt-topo-site p{
     color: #ffffff;
     margin: 40px 0;
+    line-height: 30px;
+    text-align: justify;
+    
 }
 .topo-do-site .txt-topo-site h1 span{
     color: #660683;
@@ -132,6 +141,96 @@ section.topo-do-site .flex{
     }
 }
 
+/* Estilo das especialidades */
+section.especialidades{
+    padding: 40px 4%;
+    
+}
+section.especialidades .flex{
+    gap: 60px;
+}
 
+.especialidades .especialidade-box{
+    color: #ffffff;
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
 
+.especialidades .especialidade-box:hover{
+    box-shadow: 0 0 30px #66068373;
+    transform: scale(1.05);
+    
+}
+
+.especialidades .especialidade-box i{
+    font-size: 70px;
+    color: #660683;
+}
+
+.especialidades .especialidade-box h3{
+    font-size: 28px;
+    margin: 15px 0;
+}
+   
+/* ESTILO SOBRE */
+
+section.sobre{
+    padding: 100px 4%;
+}
+
+section.sobre .flex{
+    align-items: center;
+    line-height: 30px;
+    gap: 70px;
+}
+
+.sobre .txt-sobre{
+    color: #fff
+
+}
+
+.sobre .txt-sobre h2{
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 35px;
+}
+
+.sobre .txt-sobre h2 span{
+    color: #660683;
+    display: block;
+}
+
+.sobre .txt-sobre p{
+    margin: 20px 0;
+    text-align: justify;
+}
+
+.sobre .txt-sobre .btn-social button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    font-size: 22px;
+    background-color: #660683;
+    cursor: pointer;
+    margin: 0 8px;
+    transition: 0.3s;
+}
+/* Estilo relacoes */
+section.relacoes{
+    padding: 100px 4%;
+}
+
+.relacoes .relacoes h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #fff
+}
+
+.relacoes .relacoes p{
+    color: #fff;
+    margin-bottom: 15px;
+}
 
